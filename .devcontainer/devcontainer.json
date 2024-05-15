@@ -1,7 +1,4 @@
 {
     "name": "My Ubuntu 22.04 Codespace",
-    "context": "ubuntu-22.04",
-    "features": {
-        "remote-containers": true
-    }
+    "context": "ubuntu-22.04"
 }
