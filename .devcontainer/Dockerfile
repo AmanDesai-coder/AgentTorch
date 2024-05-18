@@ -1,4 +1,4 @@
-# Below copied from Copilot
+# Below copied from Bing/Copilot, thank you to them!
 # Use the official Ubuntu 22.04 base image
 FROM ubuntu:22.04
 
@@ -11,3 +11,7 @@ RUN apt-get update && \
     add-apt-repository ppa:deadsnakes/ppa && \
     apt-get update && \
     apt-get install -y python3.8 python3.8-venv
+    
+RUN python3.8 -m venv agent_torch_env
+RUN source agent_torch_env/bin/activate
+
