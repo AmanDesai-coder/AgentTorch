@@ -11,7 +11,4 @@ RUN apt-get update && \
     add-apt-repository ppa:deadsnakes/ppa && \
     apt-get update && \
     apt-get install -y python3.8 python3.8-venv
-    
-RUN python3.8 -m venv agent_torch_env
-RUN source agent_torch_env/bin/activate
 
